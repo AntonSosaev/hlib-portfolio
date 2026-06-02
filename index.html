@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta.title">Hlib Konberh — Web Developer</title>
+  <meta name="description" data-i18n="meta.description" content="Web developer building clean, minimal websites for people who want their online presence to look intentional." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress-bar" id="scrollProgressBar"></span>
+    </div>
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="logo"><span data-i18n="name.full">Hlib Konberh</span><span class="logo-dot">.</span></a>
+      <button class="nav-toggle" data-i18n-aria="nav.menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#build" data-i18n="nav.build">Build</a></li>
+        <li><a href="#process" data-i18n="nav.process">Process</a></li>
+        <li><a href="#work" data-i18n="nav.work">Work</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li class="nav-lang">
+          <div class="lang-switcher" role="group" data-i18n-aria="nav.langSwitcher" aria-label="Language">
+            <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" class="lang-btn" data-lang="ua" aria-pressed="false">UA</button>
+            <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+          </div>
+        </li>
+        <li><a href="#contact" class="btn btn-ghost nav-cta magnetic-btn"><span class="magnetic-btn__inner" data-i18n="nav.cta">Start a project</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="hero">
+      <div class="hero-text" data-reveal-group>
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">Hlib Konberh — Web Developer</p>
+        <h1 class="hero-title reveal" data-i18n-html="hero.title">I turn vague ideas into websites that look <em>suspiciously</em> more expensive than they were.</h1>
+        <p class="hero-sub reveal" data-i18n="hero.sub">Web developer building clean, minimal websites for people who want their online presence to look intentional.</p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary magnetic-btn"><span class="magnetic-btn__inner" data-i18n="nav.cta">Start a project</span></a>
+          <a href="#work" class="btn btn-ghost magnetic-btn"><span class="magnetic-btn__inner" data-i18n="hero.viewWork">View work</span></a>
+        </div>
+        <p class="hero-status reveal" role="status">
+          <span class="hero-status-indicator" aria-hidden="true"></span>
+          <span class="hero-status-text" data-i18n="hero.status">Open to projects of any complexity — from personal portfolios to polished business websites.</span>
+        </p>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="panel card-interactive">
+          <div class="panel-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="panel-label">status.json</span>
+          </div>
+          <div class="panel-body">
+            <div class="stat-row"><span class="stat-key" data-i18n="panel.availability">availability</span><span class="stat-val ok" data-i18n="panel.open">open</span></div>
+            <div class="stat-row"><span class="stat-key" data-i18n="panel.stack">stack</span><span class="stat-val">html · css · js</span></div>
+            <div class="stat-row"><span class="stat-key" data-i18n="panel.aesthetic">aesthetic</span><span class="stat-val" data-i18n="panel.minimal">minimal</span></div>
+            <div class="stat-row"><span class="stat-key" data-i18n="panel.templates">templates_used</span><span class="stat-val muted">0</span></div>
+            <div class="panel-meter">
+              <div class="meter-label"><span data-i18n="panel.taste">taste</span><span>98%</span></div>
+              <div class="meter-track"><div class="meter-fill" style="--w:98%"></div></div>
+            </div>
+            <div class="panel-meter">
+              <div class="meter-label"><span data-i18n="panel.confidence">confidence</span><span data-i18n="panel.questionable">steady</span></div>
+              <div class="meter-track"><div class="meter-fill" style="--w:74%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <div class="about-layout">
+        <div class="about-main" data-reveal-group>
+          <span class="section-index reveal">01</span>
+          <h2 class="section-title reveal" data-i18n="about.title">Not an agency. Not a guru. Just the person who makes the page make sense.</h2>
+          <div class="about-copy">
+            <p class="reveal" data-i18n="about.p1">I'm Hlib Konberh — a web developer building clean, minimal websites for people, projects, and businesses that need a stronger digital presence.</p>
+            <p class="reveal" data-i18n="about.p2">I focus on structure, visual clarity, responsive design, and sharp presentation — the details that make a website feel intentional instead of accidental.</p>
+          </div>
+        </div>
+        <aside class="about-portrait reveal" data-i18n-aria="about.portraitLabel" aria-label="About Hlib Konberh">
+          <article class="portrait-card card-interactive">
+            <div class="portrait-media">
+              <img src="portrait.avif" alt="Portrait of Hlib Konberh" data-i18n-alt="name.portraitAlt" loading="lazy" decoding="async" />
+            </div>
+            <div class="portrait-body">
+              <h3 class="portrait-name" data-i18n="name.full">Hlib Konberh</h3>
+              <p class="portrait-role" data-i18n="about.role">Web Developer</p>
+              <p class="portrait-credential" data-i18n="about.credential">Honorary Citizen of Horishni Plavni, 2009.</p>
+              <ul class="portrait-pills">
+                <li data-i18n="pill.minimal">Minimal Websites</li>
+                <li data-i18n="pill.landing">Landing Pages</li>
+                <li data-i18n="pill.portfolio">Personal Portfolios</li>
+                <li data-i18n="pill.structure">Clean Structure</li>
+                <li data-i18n="pill.copy">Sharp Copy</li>
+                <li data-i18n="pill.layout">Responsive Layout</li>
+              </ul>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <!-- What I build -->
+    <section class="section container" id="build">
+      <div class="section-head" data-reveal-group>
+        <span class="section-index reveal">02</span>
+        <h2 class="section-title reveal" data-i18n="build.title">What I build</h2>
+        <p class="section-sub reveal" data-i18n="build.sub">Websites with structure, taste, and a clear purpose.</p>
+      </div>
+      <div class="cards" data-reveal-group>
+        <article class="card card-interactive reveal">
+          <h3 data-i18n="build.card1.title">Landing Pages</h3>
+          <p data-i18n="build.card1.desc">For services, launches, personal brands, and projects that need one focused page with a clear message.</p>
+        </article>
+        <article class="card card-interactive reveal">
+          <h3 data-i18n="build.card2.title">Personal Portfolios</h3>
+          <p data-i18n="build.card2.desc">For students, freelancers, creators, and professionals who want their online presence to look intentional.</p>
+        </article>
+        <article class="card card-interactive reveal">
+          <h3 data-i18n="build.card3.title">Business Websites</h3>
+          <p data-i18n="build.card3.desc">Clean, responsive websites for services, local businesses, personal brands, and early-stage projects.</p>
+        </article>
+        <article class="card card-interactive reveal">
+          <h3 data-i18n="build.card4.title">Web Concepts</h3>
+          <p data-i18n="build.card4.desc">Visual concepts and prototypes for ideas that need to be shaped, tested, and presented clearly.</p>
+        </article>
+      </div>
+      <p class="build-footnote reveal" data-i18n="build.footnote">Every build starts with structure, clarity, responsive layout, and attention to the details people usually notice too late.</p>
+    </section>
+
+    <!-- How I work -->
+    <section class="section container" id="process">
+      <div class="section-head" data-reveal-group>
+        <span class="section-index reveal">03</span>
+        <h2 class="section-title reveal" data-i18n="process.title">How I work</h2>
+        <p class="section-sub reveal" data-i18n="process.sub">A clear path from early idea to a finished, considered page.</p>
+      </div>
+      <div class="steps" data-reveal-group>
+        <article class="step card-interactive reveal">
+          <span class="step-num">01</span>
+          <div>
+            <h3 data-i18n="process.step1.title">Define the direction</h3>
+            <p data-i18n="process.step1.desc">You share the concept and goals. I help shape them into a focused direction for the page.</p>
+          </div>
+        </article>
+        <article class="step card-interactive reveal">
+          <span class="step-num">02</span>
+          <div>
+            <h3 data-i18n="process.step2.title">Structure the page</h3>
+            <p data-i18n="process.step2.desc">Sections, copy, hierarchy, and calls to action are organized before visual refinement begins.</p>
+          </div>
+        </article>
+        <article class="step card-interactive reveal">
+          <span class="step-num">03</span>
+          <div>
+            <h3 data-i18n="process.step3.title">Build the website</h3>
+            <p data-i18n="process.step3.desc">A clean, responsive website built to work consistently on desktop and mobile.</p>
+          </div>
+        </article>
+        <article class="step card-interactive reveal">
+          <span class="step-num">04</span>
+          <div>
+            <h3 data-i18n="process.step4.title">Refine and deliver</h3>
+            <p data-i18n="process.step4.desc">Final spacing, typography, responsive checks, and polish — the details that make a website feel complete.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section container" id="work">
+      <div class="section-head" data-reveal-group>
+        <span class="section-index reveal">04</span>
+        <h2 class="section-title reveal" data-i18n="work.title">Selected work</h2>
+        <p class="section-sub reveal" data-i18n="work.sub">Featured websites, experiments, and client projects will appear here as they are ready.</p>
+      </div>
+      <div class="cards cards-work" data-reveal-group>
+        <article class="card card-work card-interactive reveal">
+          <span class="card-tag" data-i18n="work.tag">Reserved</span>
+          <h3 data-i18n="work.card1.title">Portfolio v2</h3>
+          <p data-i18n="work.soon">Coming soon.</p>
+        </article>
+        <article class="card card-work card-interactive reveal">
+          <span class="card-tag" data-i18n="work.tag">Reserved</span>
+          <h3 data-i18n="work.card2.title">Client Website</h3>
+          <p data-i18n="work.soon">Coming soon.</p>
+        </article>
+        <article class="card card-work card-interactive reveal">
+          <span class="card-tag" data-i18n="work.tag">Reserved</span>
+          <h3 data-i18n="work.card3.title">Digital Experiment</h3>
+          <p data-i18n="work.soon">Coming soon.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container contact" id="contact">
+      <div class="contact-inner" data-reveal-group>
+        <span class="section-index reveal">05</span>
+        <h2 class="section-title contact-title reveal" data-i18n="contact.title">Send the idea. I'll shape the page.</h2>
+        <p class="section-sub reveal" data-i18n="contact.sub">Have a project in mind? Send the details.</p>
+        <div class="contact-actions reveal">
+          <a href="mailto:gleb2konberg@gmail.com" class="btn btn-primary magnetic-btn"><span class="magnetic-btn__inner" data-i18n="contact.cta">Have a project in mind? Send the details.</span></a>
+        </div>
+        <ul class="contact-links reveal">
+          <li><a href="mailto:gleb2konberg@gmail.com"><span data-i18n="contact.email">Email</span><span>gleb2konberg@gmail.com</span></a></li>
+          <li><a href="#"><span data-i18n="contact.telegram">Telegram</span><span data-i18n="contact.placeholder">placeholder</span></a></li>
+          <li><a href="#"><span data-i18n="contact.github">GitHub</span><span data-i18n="contact.placeholder">placeholder</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-left">
+      <span class="footer-name" data-i18n="name.full">Hlib Konberh</span>
+      <span class="footer-role" data-i18n="about.role">Web Developer</span>
+    </div>
+    <p class="footer-note" data-i18n="footer.note">Clean websites. Clear structure. Minimal noise.</p>
+    <span class="footer-year" id="year"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
