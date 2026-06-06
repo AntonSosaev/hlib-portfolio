@@ -74,11 +74,10 @@
       "work.soon": "Coming soon.",
       "contact.title": "Send the idea. I'll shape the page.",
       "contact.sub": "Have a project in mind? Send the details.",
-      "contact.cta": "Have a project in mind? Send the details.",
+      "contact.cta": "Message on Telegram",
       "contact.email": "Email",
-      "contact.github": "GitHub",
       "contact.telegram": "Telegram",
-      "contact.placeholder": "placeholder",
+      "contact.telegramUser": "@ghardsu",
       "footer.note": "Clean websites. Clear structure. Minimal noise."
     },
     ua: {
@@ -150,11 +149,10 @@
       "work.soon": "Незабаром.",
       "contact.title": "Надішліть ідею. Я зберу її в сторінку.",
       "contact.sub": "Є проєкт? Надішліть деталі.",
-      "contact.cta": "Є проєкт? Надішліть деталі.",
+      "contact.cta": "Написати в Telegram",
       "contact.email": "Пошта",
-      "contact.github": "GitHub",
       "contact.telegram": "Telegram",
-      "contact.placeholder": "заглушка",
+      "contact.telegramUser": "@ghardsu",
       "footer.note": "Чисті сайти. Чітка структура. Мінімум зайвого."
     },
     ru: {
@@ -226,11 +224,10 @@
       "work.soon": "Скоро.",
       "contact.title": "Отправьте идею. Я соберу её в страницу.",
       "contact.sub": "Есть проект? Отправьте детали.",
-      "contact.cta": "Есть проект? Отправьте детали.",
+      "contact.cta": "Написать в Telegram",
       "contact.email": "Почта",
-      "contact.github": "GitHub",
       "contact.telegram": "Telegram",
-      "contact.placeholder": "заглушка",
+      "contact.telegramUser": "@ghardsu",
       "footer.note": "Чистые сайты. Чёткая структура. Минимум лишнего."
     }
   };
